@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-// Función para calcular el factorial de un número de forma iterativa
 unsigned long long factorial(int n) {
     unsigned long long resultado = 1;
     for (int i = 1; i <= n; i++) {
